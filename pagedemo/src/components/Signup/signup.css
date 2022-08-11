@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(105.39deg, #D8D8D8, #131C38);
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  background-size: 500% 500%;
+  -webkit-animation: change 10s ease-in-out infinite;
+          animation: change 10s ease-in-out infinite;
+}
+
+@-webkit-keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+.logo img {
+  width: 260px;
+}
+
+.login_text {
+  margin-left: 100px;
+  margin-top: 100px;
+  font-family: poppins;
+  color: white;
+  font-size: 20px;
+}
+
+.login_text h1 {
+  font-family: poppins;
+  font-size: 65px;
+  color: white;
+}
+
+.signup_cards {
+  background-color: white;
+  -webkit-box-shadow: 10px 30px 25px rgba(0, 0, 0, 0.5);
+          box-shadow: 10px 30px 25px rgba(0, 0, 0, 0.5);
+  width: 68%;
+  margin-left: 100px;
+  height: 580px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.signup_cards input {
+  border: none;
+  border-bottom: 1px solid;
+  width: 320px;
+  padding-left: 10px;
+  padding-bottom: 4px;
+  margin-top: 30px;
+  font-family: poppins;
+}
+
+.signup_cards form {
+  position: relative;
+  text-align: center;
+}
+
+.signup_cards .loginbtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 60px;
+}
+
+.signup_cards .loginbtn button {
+  background-color: #131C38;
+  color: white;
+  padding: 14px 36px;
+  border-radius: 8px;
+  border: none;
+  font-family: poppins;
+}
+
+.ull {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.ull li {
+  list-style: none;
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.ull li a {
+  text-decoration: none;
+  color: white;
+}
+
+.ull li img {
+  width: 100px;
+  height: 50px;
+}
+/*# sourceMappingURL=signup.css.map */
