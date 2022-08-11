@@ -1,12 +1,11 @@
 import React from "react";
-import "./signup.css"
 import XidmetLogo from "../images/Xidmət Logo.png";
 import Esamlogo from "../images/esam 1.png";
+import { Link } from "react-router-dom";
 
-
-const Signup =()=>{
+const Parol =()=>{
     return(
-        <div className="container">
+        <div className="container ">
             <div className="row">
                 <div className="col-lg-6 mt-3">
                     <div className="logo">
@@ -19,21 +18,21 @@ const Signup =()=>{
                     </div>
                 </div>
                 <div className="col-lg-6 mt-5">
-                    <div className="signup_cards">
+                    <div className="login_cards">
                         <form action="#">
-                            <input type="text" placeholder="Ad" />
+                            <input type="password" placeholder="Yeni şifrə" />
                             <br />
-                            <input type="text" placeholder="Soyad" />
-                            <input type="email" placeholder="E-mail" />
-                            <br />
-                            <input type="password" placeholder="Şifrəni təyin et" />
                             <input type="password" placeholder="Şifrəni təkrarla" />
-                            <br />
-                            <input type="password" placeholder="Şifrə" />
-                            
+                            <div className="codes">
+                                <p>Yeni şifrə ilə uyğun deyil!</p>
+                            </div>
                             <div className="loginbtn">
-                                <button className="btn">Qeydiyyatdan keç</button>
-                            </div>      
+                                <button className="btn">
+                                    <a href="">
+                                    <Link to={"/parol3"}>Təsdiqlə</Link>
+                                    </a>
+                                </button>
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -44,12 +43,10 @@ const Signup =()=>{
                         </li>
                         <li>
                             <a href="">
-
-                           Məxfilik siyasəti
+                            Məxfilik siyasəti
                             </a>
                         </li>
                         <li><a href="">
-
                             İstifadə qaydaları
                         </a>
                         </li>
@@ -60,4 +57,4 @@ const Signup =()=>{
     )
 }
 
-export default Signup
+export default Parol

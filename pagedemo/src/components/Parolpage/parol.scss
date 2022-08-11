@@ -40,8 +40,7 @@ body{
     font-size: 19px;
 }
 
-
-.signup_cards{
+.login_cards{
     background-color: white;
     box-shadow:  10px 30px 25px rgba(0, 0, 0, 0.5);;  
     width: 68%;
@@ -52,10 +51,10 @@ body{
     align-items: center;
     input{
         border: none;
-        outline: none;
         border-bottom: 1px solid;
-        width: 320px;
-        padding-left: 10px;
+        outline: none;
+        width: 370px;
+        padding-left: 5px;
         padding-bottom: 4px;
         margin-top: 30px;
         font-family: poppins;
@@ -72,14 +71,52 @@ body{
         margin-top: 60px;
         button{
             background-color: #131C38; 
-            color: white;
             padding: 14px 36px;
             border-radius: 8px;
             border: none;
             font-family: poppins;
+            a{
+                text-decoration: none;
+                color: white;
+            }
             
         }
     }
+    .code{
+        p{
+            color: #D20A11;
+            font-weight: 500;
+            font-size: 12px;
+            padding-top: 28px;
+
+        }
+    }
+    .codes{
+        p{
+            color: #D20A11;
+            font-weight: 500;
+            font-size: 12px;
+            margin: 0;
+            padding:4px 0px 0px 5px;
+            text-align: start;
+
+        }
+    }
+    .tesdiq{
+        padding-top: 20px;
+        a{
+            text-decoration: none;
+            color: #131C38;
+            font-weight: 500;
+            font-size: 12px;
+            transition: .3s ease-in-out;
+            &:hover{
+                color: black;
+                font-weight: 700;
+            }
+        }
+    }
+    
 }
 .ull{
     display: flex;

@@ -31,13 +31,13 @@ body{
      margin-left: 100px;
     h1{
         font-family: poppins;
-        font-size: 65px;
+        font-size: 60px;
         color: white;
     }
-    margin-top: 100px;
+    margin-top: 170px;
     font-family: poppins;
     color: white;
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .login_cards{
@@ -113,6 +113,7 @@ body{
     input{
         border: none;
         border-bottom: 1px solid;
+        outline: none;
         max-width: 100%;
         padding-left: 10px;
         padding-bottom: 4px;
@@ -148,8 +149,8 @@ body{
         }
     }
     .signuplink{
-        text-align:center;
         padding-top: 20px;
+        text-align:center;
         a{
             text-decoration: none;
             font-family: poppins;

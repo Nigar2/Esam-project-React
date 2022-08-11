@@ -24,9 +24,12 @@ const Login =()=>{
                         <form action="#">
                             <input type="text" placeholder="İstifadəçi adı" />
                             <br />
-                            <input type="text" placeholder="Şifrə" />
+                            <input type="password" placeholder="Şifrə" />
                             <div className="validparol">
-                                <a href="#">Şifrəni unutdum?</a>
+                                <a href="">
+                                <Link to={"/parol"}>Şifrəni unutdum?</Link>
+                               </a>
+                               
                             </div>
                             <div className="loginbtn">
                                 <button className="btn">Daxil ol</button>
@@ -35,7 +38,7 @@ const Login =()=>{
                                 <div className="signuplink">
                                     <a href="">
 
-                                <Link to ="/signup">Qeydiyyatdan keç</Link>
+                                <Link to={"/signup"}>Qeydiyyatdan keç</Link>
                                     </a>
 
                                 </div>
